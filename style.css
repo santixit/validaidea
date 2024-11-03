@@ -22,7 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: hwb(216 6% 9%);
+    background: #0f66e8;
     color: #fff;
 }
 
@@ -67,7 +67,7 @@ header .cta {
     border-radius: 5px;
 }
 
-#funcionalidades, #beneficios, #testimonios, #planes {
+#funcionalidades, #beneficios, #mision, #planes , #vision , #quienessomos {
     padding: 50px 20px;
     text-align: center;
 }
