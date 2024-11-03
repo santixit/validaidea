@@ -1,0 +1,108 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.logo img {
+    max-width: 350px; /* Ajusta el ancho máximo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 20px; /* Añade un margen a los lados */
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: hwb(216 6% 9%);
+    color: #fff;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav a {
+    margin-left: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header .cta {
+    background: #fff;
+    color: #0f66e8;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #f4f4f4;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background: #0f66e8;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#funcionalidades, #beneficios, #testimonios, #planes {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features, .plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature, .plan {
+    background: #e0e0e0;
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+#planes .plan {
+    background: #f0f0f0;
+}
+
+.plan .btn {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 10px;
+    background: #0f66e8;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
